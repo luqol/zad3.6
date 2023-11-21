@@ -10,11 +10,12 @@
 body {
     font-size: 16px;
     margin: 0;
+    padding: 0;
 }
 
 .container{
     max-width: 1024px;
-    margin: 0 auto 70px auto;
+    margin: 0 auto 0 auto;
     text-align: center;
 }
 
@@ -172,6 +173,12 @@ body {
     }
 }
 
+.services{
+    .row:last-of-type{
+        padding-bottom: 70px;
+    }
+}
+
 /* portfolio */
 
 .portfolio{
@@ -198,7 +205,7 @@ body {
 
 .portfolio{
     .row:last-of-type{
-        padding-bottom: 70px;
+        padding-bottom: 60px;
     }
 }
 
@@ -211,4 +218,74 @@ body {
     margin:5px auto;
     padding-bottom: 32px;
     font-style: italic;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    margin: 12px auto;
+}
+
+.footer-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 50%;
+}
+
+.footer-left{
+    p{
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.footer-right{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex: 50%;
+}
+
+.footer-right{
+    ul{
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.footer-right{
+    li{
+        display: inline-block;
+        background-color: black;
+        width: 40px;
+        height: 40px;
+        border: 2px solid black;
+        border-radius: 20px;
+        padding-top: 5px;
+        &:hover{
+            transform: scale(1.5);
+            transition: all 1s;
+        }
+        margin-right: 12px;
+    }
+}
+
+.footer-right{
+    a{
+        text-decoration: none;
+        font-size: 0;
+        text-align: center;
+    }
+}
+
+.footer-right{
+    i{
+        display: block;
+        font-size: 24px;
+        color: white;
+    }
 }
