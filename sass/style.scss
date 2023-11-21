@@ -18,6 +18,35 @@ body {
     text-align: center;
 }
 
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    min-width: 160px;
+    text-align: center;
+    margin: 24px  auto 0 auto;
+    padding: 16px 32px;
+    font-weight: 550;
+    cursor: pointer;
+    border: 2px solid gold;
+    border-radius: 5px;
+    background-color: gold;
+    background-position: 100% 0;
+    background-size: 300%;
+    transition: all 1s;
+}
+
+.btn:hover {
+    background-position: 0 100%;
+    color: gold;
+}
+
+.btn-one{
+    color: white;
+    border-color: white;
+    background-image: linear-gradient(90deg, black 50%, transparent 50%);
+}
+
+
 /* Navigation */
 
 .top-menu{
@@ -61,4 +90,33 @@ body {
     a{
         text-decoration: none;
     }
+}
+
+/* header */
+
+.splash{
+    display: flex;
+    min-height: 500px;
+    background-image: url("/images/main.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.splash-inner{
+    text-align: center;
+    margin: auto;
+    max-width: 70%;
+}
+
+.page-title {
+    font-size: 32px;
+    margin: 0;
+    color: white;
+}
+
+.page-subtitle{
+    font-size: 48px;
+    margin: 12px 0;
+    color: white;
 }
