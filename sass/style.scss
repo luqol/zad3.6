@@ -110,6 +110,10 @@ body {
     a{
         text-decoration: none;
         color:white;
+        &:hover{
+            color: gold;
+            transition: all 1s;
+        }
     }
 }
 
