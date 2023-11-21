@@ -1,0 +1,64 @@
+/* Variables */
+
+
+*,*::before,*::after {
+    box-sizing: border-box;   
+}
+
+/* Global */
+
+body {
+    font-size: 16px;
+    margin: 0;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Navigation */
+
+.top-menu{
+    display: flex;
+    margin-top: 20px;
+}
+
+.left-menu{
+    text-align: center;
+    flex: 25%;
+}
+.left-menu{
+    a{
+        text-decoration: none;
+        color: gold;
+    }
+}
+
+.right-menu{
+    text-align: center;
+    flex: 75%;
+
+}
+
+.right-menu{
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.right-menu{
+    li{
+        display: inline-block;
+        margin-right: 36px;
+
+    }
+}
+.right-menu{
+    a{
+        text-decoration: none;
+    }
+}
