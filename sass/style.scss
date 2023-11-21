@@ -49,9 +49,15 @@ body {
 
 /* Navigation */
 
+.navigator{
+    background-color: grey;
+    display: flex;
+}
+
 .top-menu{
     display: flex;
     margin-top: 20px;
+    flex:100%;
 }
 
 .left-menu{
@@ -61,7 +67,6 @@ body {
 .left-menu{
     a{
         text-decoration: none;
-        color: gold;
     }
 }
 
@@ -82,13 +87,13 @@ body {
 .right-menu{
     li{
         display: inline-block;
-        margin-right: 36px;
-
+        margin-right: 36px;      
     }
 }
 .right-menu{
     a{
         text-decoration: none;
+        color:white;
     }
 }
 
