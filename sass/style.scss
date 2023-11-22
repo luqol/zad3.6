@@ -84,12 +84,13 @@ body {
 
 .top-menu{
     display: flex;
-    margin-top: 20px;
     flex:100%;
+    max-width: 1024px;
+    margin: 20px auto 0 auto;
 }
 
 .left-menu{
-    text-align: center;
+    text-align: left;
     flex: 25%;
 }
 .left-menu{
@@ -99,7 +100,7 @@ body {
 }
 
 .right-menu{
-    text-align: center;
+    text-align: right;
     flex: 75%;
 
 }
@@ -115,7 +116,7 @@ body {
 .right-menu{
     li{
         display: inline-block;
-        margin-right: 36px;      
+        margin-left: 36px;      
     }
 }
 .right-menu{
@@ -328,8 +329,11 @@ footer{
 @media (max-width: 767px){
 
     .right-menu{
+        text-align: center;
+    }
+    .right-menu{
         li{
-            margin-right: 12px;   
+            margin-left: 12px;   
             padding-bottom: 12px;   
         }
     }
